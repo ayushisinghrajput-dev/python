@@ -1,0 +1,7 @@
+t1 = (10,20,30,40,50)
+t2 = (5,8,9,4,7,3)
+t3 = (t1+t2)
+print(t3)
+print(min(t1))
+print(max(t1))
+print(len(t2))

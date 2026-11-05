@@ -1,0 +1,38 @@
+# Write a function to prove duplicates from a given string s="hello"
+s = "Hello"
+s.strip(s)
+temp = ""
+for i in s:
+    if i not in temp:
+        temp += i
+        print(temp)
+# OR
+
+s = input()
+clean_s = s.strip()
+
+def remove_dup(s):
+    # DECLARES EMPTY STRING
+    temp = ""
+    for i in s :
+        if i not in temp:
+            temp += i
+    return temp        
+
+print(remove_dup(clean_s))
+
+# Write a function to count and print the longest word in the given string s"First Programe Language"
+#imp (edge case)
+
+def count_longest(s):
+    max_len = 0
+    
+    #split
+    
+    sl = s.split()
+    for i in range(len(s1)):
+        if len(s1[i]) > max_len:
+            max_len = len(s1[i])
+    return man_len
+    
+print(count_longest(clean_s))    

@@ -1,0 +1,50 @@
+dict = { "name":"Ravi","Age":20,"section":"k"}
+        
+print(dict["name"])
+print(dict.get("section"))
+
+for i in dict:
+    print(i)
+
+for i in dict.items():
+     print(i)
+
+for i in dict.values():
+    print(i)
+
+# Nested dictionary :-
+
+student = {
+    "st1":{"name":"ram","ERP":909,"branch":"cse"},
+   
+    "st2":{"name":"rahul","ERP":404,"branch":"mechenical"},
+   
+    "st3":{"name":"vani","ERP":509,"branch":"cse"},
+}    
+
+print(student["st2"]["name"])
+student["st1"]["name"]="raj"
+print(student)
+
+#dictionary operators:-
+#pop()
+#clear()
+#del()
+st45 = {"name":"ram","age":20,"section":"k"}
+
+st45.pop("name")
+print(st45)
+
+st45.popitem()
+print(st45)
+
+st45.clear()
+print(st45)
+
+del st45
+
+print(st45)
+
+stu = {
+    "st1":{"subjects":{"sb1":1,"sb2":2}}
+}
